@@ -12,15 +12,15 @@ const HeaderDiv = styled.div`
     background-color: #9400d3;
     margin: auto;
     > .headerLogo {
-        width: 30%;
+        width: 10%;
         height: 20pt;
         background-color: #8a2be2;
-        background-image: url("xyz.png");
-        margin: auto 10%;
+        background-image: url("metro-reach.png");
+        margin: auto 5% auto 0;
     }
     > .links {
         width: 50%;
-        margin: auto 10%;
+        margin: auto 0 auto 5%;
     }
     > div > ul {
         list-style-type: none;
@@ -31,6 +31,11 @@ const HeaderDiv = styled.div`
         font-size: large;
         font-style: oblique;
         margin: 0 3%;
+        cursor: pointer;
+        color: #b0c4de;
+        :hover {
+            background-color: #80808088;
+        }
     }
 `
 
