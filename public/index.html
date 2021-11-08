@@ -28,6 +28,19 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <form method="post" name="contact" hidden netlify netlify-honeypot = "bot-field">
+      <h4>Get your message across easily</h4>
+      <p className = "input-group w-5">
+        <input className = "w-md-25 form-control" type="email" name = "Email" />
+      </p>
+      <p>
+        <input type="text" name = "names" placeholder="Full Names" />
+      </p>
+      <p>
+        <textarea></textarea>
+      </p>
+      <input type="submit"/>
+    </form>
     <div id="root"></div>
     <!--
       This HTML file is a template.
