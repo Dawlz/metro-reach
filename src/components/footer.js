@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-icons"
+import { Link } from "react-router-dom"
 
 const MainFooter = styled.div`
     display: flex;
@@ -56,6 +57,10 @@ const SiteMap = styled.div`
         color: #000000;
         margin: 5pt 0;
     }
+    > p > a {
+        text-decoration: none;
+        color: inherit;
+    }
     > h3 {
         width: fit-content;
         font-size: 12pt;
@@ -68,6 +73,10 @@ const SiteMap = styled.div`
 const SocialsDiv = styled.div`
     align-items: flex-start;
     flex-direction: row;
+    > i > a {
+        text-decoration: none;
+        color: inherit;
+    }
     > i {
         width: fit-content;
         margin: 5pt;
@@ -95,9 +104,9 @@ const Footer = () => {
                 <LogoDiv></LogoDiv>
                 <SiteMap>
                     <h3>Site Map</h3>
-                    <p>Home</p>
+                    <p><Link to="/">Home</Link></p>
                     <p>Services</p>
-                    <p>Contact Us</p>
+                    <p><Link to = "/contact">Contact Us</Link> </p>
                     <p>Blog</p>
                 </SiteMap>
                 <SocialsDiv>
@@ -115,11 +124,15 @@ const Footer = () => {
                     </i>
                     <span>|</span>
                     <i>
-                        <FontAwesomeIcon title = "Mail" icon={faPaperPlane} color="#0F4C81" />
+                        <a href="mailto:moyosore.ogunleye@r28.ng">
+                            <FontAwesomeIcon title = "Mail" icon={faPaperPlane} color="#0F4C81" />
+                        </a>
                     </i>
                     <span>|</span>
                     <i>
-                        <FontAwesomeIcon title = "Call" icon={faPhone} flip="horizontal" />
+                        <a href = "tel:+2348168883134">
+                            <FontAwesomeIcon title = "Call" icon={faPhone} flip="horizontal" />
+                        </a>
                     </i>
                     <span>|</span>
                 </SocialsDiv>

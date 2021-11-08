@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const HeaderDiv = styled.div`
     display: flex;
     flex-direction: row;
-    width: 98%;
+    width: 95%;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -28,7 +29,8 @@ const HeaderDiv = styled.div`
     }
     > div > ul > li {
         display: inline;
-        font-size: large;
+        font-size: larger;
+        font-weight: 700;
         font-style: oblique;
         margin: 0 3%;
         cursor: pointer;
@@ -36,6 +38,13 @@ const HeaderDiv = styled.div`
         :hover {
             background-color: #80808088;
         }
+        :active {
+            background-color: #a9a9a9;
+        }
+    }
+    > div > ul > li > a {
+        text-decoration: none;
+        color: inherit;
     }
 `
 
@@ -45,9 +54,9 @@ const Header = () => {
             <div className="headerLogo"></div>
             <div className="links">
                 <ul>
-                    <li>Home</li>
+                    <li><Link to="/">Home</Link></li>
                     <li>Services</li>
-                    <li>Contact Us</li>
+                    <li><Link to = "/contact">Contact Us</Link></li>
                     <li>Blog</li>
                 </ul>
             </div>
