@@ -30,9 +30,9 @@ const ContactForm = () => {
             <FormBody onSubmit = {SubmitHandler} name="contact" method="post">
                 <input type="hidden" name="form-name" value="contact" />
                 <h4>Get your message across easily</h4>
-                <p className = "input-group w-5">
+                <p>
                     <label htmlFor="Email">Enter Email Address:</label> <br />
-                    <input className = "w-md-25 form-control" type="email" name = "Email" value = { Email } onChange = { e => setEmail(e.target.value) } />
+                    <input type="email" name = "Email" value = { Email } onChange = { e => setEmail(e.target.value) } />
                 </p>
                 <p>
                     <label htmlFor="names">Names:</label> <br />
