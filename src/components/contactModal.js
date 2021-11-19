@@ -15,7 +15,7 @@ const IconButton = styled.button`
     font-size: medium;
     background-color: #f0f8ffbf;
     cursor: pointer;
-`
+`;
 
 const ContactModal = () => {
 
@@ -23,7 +23,7 @@ const ContactModal = () => {
         <>
             <Link to="/contact#form"><IconButton><FontAwesomeIcon title="Contact" icon={faHeadset} size="2x" /></IconButton></Link>
         </>
-    )
-}
+    );
+};
 
-export default ContactModal
+export default ContactModal;

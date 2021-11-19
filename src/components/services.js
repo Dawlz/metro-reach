@@ -34,7 +34,7 @@ const MainServicesDiv = styled.div`
         margin: 10pt auto;
         line-height: 1.5;
     }
-`
+`;
 
 
 const Services = () => {
@@ -67,7 +67,7 @@ const Services = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque eius officiis alias harum atque fugiat, quaerat aspernatur, praesentium dolor sequi, aliquam odit natus aperiam voluptates recusandae molestiae unde expedita ab assumenda totam voluptate molestias ducimus. Molestiae alias totam magnam exercitationem placeat, quaerat voluptas. Nobis id mollitia totam. Minima.</p>
             </div>
         </MainServicesDiv>
-    )
-}
+    );
+};
 
-export default Services
+export default Services;

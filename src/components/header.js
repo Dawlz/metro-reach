@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import styled from "styled-components"
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const HeaderDiv = styled.div`
     display: flex;
@@ -46,7 +46,7 @@ const HeaderDiv = styled.div`
         text-decoration: none;
         color: inherit;
     }
-`
+`;
 
 const Header = () => {
     return (
@@ -61,7 +61,7 @@ const Header = () => {
                 </ul>
             </div>
         </HeaderDiv>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

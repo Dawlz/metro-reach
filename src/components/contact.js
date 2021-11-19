@@ -106,7 +106,7 @@ const Contact = () => {
                 <ContactForm />
             </div>
         </ContactMainDiv>
-    )
-}
+    );
+};
 
-export default Contact
+export default Contact;

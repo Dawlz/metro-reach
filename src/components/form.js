@@ -7,12 +7,12 @@ const FormDiv = styled.div`
     border-radius: 10pt;
     margin: 0 auto 20pt auto;
     
-`
+`;
 
 const FormBody = styled.form`
     width: 100%;
     padding: 30pt 0;
-`
+`;
 
 const ContactForm = () => {
     const [Email, setEmail] = useState("");
@@ -52,7 +52,7 @@ const ContactForm = () => {
                 <input type="submit"/>
             </FormBody>
         </FormDiv>
-    )
-}
+    );
+};
 
-export default ContactForm
+export default ContactForm;

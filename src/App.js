@@ -1,10 +1,10 @@
-import { Route, Switch } from 'react-router';
+import { Route, Switch } from "react-router";
 import "./App.css";
-import Contact from './components/contact';
-import Footer from './components/footer';
-import Header from './components/header';
-import Services from './components/services';
-import Home from './components/home';
+import Contact from "./components/contact";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Services from "./components/services";
+import Home from "./components/home";
 
 function App() {
   return (
@@ -18,6 +18,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

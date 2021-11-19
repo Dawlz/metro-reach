@@ -315,7 +315,7 @@ const Home = () => {
             </TestimonialDiv>
             <ContactModal />
         </MainDiv>
-    )
+    );
 };
 
 export default Home;

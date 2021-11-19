@@ -10,7 +10,7 @@ const MainFooter = styled.div`
     width: 95%;
     border-top: 2pt solid black;
     margin: auto;
-`
+`;
 const FooterNavDiv = styled.div`
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@ const FooterNavDiv = styled.div`
         width: 15%;
         justify-content: center;
     }
-    `
+`;
 const CopyRightDiv = styled.div`
     align-items: center;
     flex-direction: column;
@@ -35,7 +35,7 @@ const CopyRightDiv = styled.div`
         font-variant: small-caps;
         display: inline;
     }
-    `
+`;
 const LogoDiv = styled.div`
     align-self: center;
     align-items: center;
@@ -45,7 +45,7 @@ const LogoDiv = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     height: 90pt;
-    `
+`;
 const SiteMap = styled.div`
     align-items: center;
     flex-direction: column;
@@ -70,7 +70,7 @@ const SiteMap = styled.div`
         color: #000000;
         margin: 5pt 0;
     }
-    `
+`;
 const SocialsDiv = styled.div`
     align-items: flex-start;
     flex-direction: row;
@@ -85,7 +85,7 @@ const SocialsDiv = styled.div`
     > span {
         margin: 5pt 0;
     }
-`
+`;
 const AddressDiv = styled.div`
     > address {
         text-align: right;
@@ -94,7 +94,7 @@ const AddressDiv = styled.div`
         font-style: normal;
         line-height: 2;
     }
-`
+`;
 
 const Footer = () => {
     const copyright = new Date().getFullYear();
@@ -149,7 +149,7 @@ const Footer = () => {
             </FooterNavDiv>
             <CopyRightDiv><span> &copy; {copyright} </span></CopyRightDiv>
         </MainFooter>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;
