@@ -1,5 +1,5 @@
 import { Route, Switch } from 'react-router';
-import './App.css';
+import "./App.css";
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Header from './components/header';

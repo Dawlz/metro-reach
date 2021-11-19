@@ -1,8 +1,8 @@
-import styled from "styled-components"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
-import { faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-icons"
-import { Link } from "react-router-dom"
+import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const MainFooter = styled.div`
     display: flex;
@@ -97,7 +97,7 @@ const AddressDiv = styled.div`
 `
 
 const Footer = () => {
-    const copyright = new Date().getFullYear()
+    const copyright = new Date().getFullYear();
 
     return (
         <MainFooter>

@@ -1,7 +1,7 @@
-import { faHeadset } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Link } from "react-router-dom"
-import styled from "styled-components"
+import { faHeadset } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const IconButton = styled.button`
     position: fixed;

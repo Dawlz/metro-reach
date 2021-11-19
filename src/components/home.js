@@ -11,7 +11,7 @@ const MainDiv = styled.div`
         width: 98%;
         margin: 20px auto;
     }
-`
+`;
 
 const HeadBanner = styled.div`
     display: flex;
@@ -83,7 +83,7 @@ const AboutDiv = styled.div`
         left: 0;
         margin-bottom: 20vh;
     }
-`
+`;
 
 const MissionVisionDiv = styled.div`
     display: flex;
@@ -118,7 +118,7 @@ const MissionVisionDiv = styled.div`
         color: #000000;
         margin: 50pt 0;
     }
-    `
+`;
 
 const ServiceDiv = styled.div `
     display: flex;
@@ -195,7 +195,7 @@ const ServiceDiv = styled.div `
             text-decoration: none;
         }
     }
-`
+`;
 const TestimonialDiv = styled.div`
     display: flex;
     flex-direction: column;
@@ -234,7 +234,7 @@ const TestimonialDiv = styled.div`
         width: 100%;
         justify-content: space-around;
     }
-`
+`;
 
 const Home = () => {
 
@@ -316,6 +316,6 @@ const Home = () => {
             <ContactModal />
         </MainDiv>
     )
-}
+};
 
-export default Home
+export default Home;

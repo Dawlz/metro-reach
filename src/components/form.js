@@ -1,5 +1,5 @@
-import { useState } from "react"
-import styled from "styled-components"
+import { useState } from "react";
+import styled from "styled-components";
 
 const FormDiv = styled.div`
     width: 75%;
@@ -15,9 +15,9 @@ const FormBody = styled.form`
 `
 
 const ContactForm = () => {
-    const [Email, setEmail] = useState("")
-    const [Names, setNames] = useState("")
-    const [Message, setMessage] = useState("")
+    const [Email, setEmail] = useState("");
+    const [Names, setNames] = useState("");
+    const [Message, setMessage] = useState("");
 
     const SubmitHandler = () => {
         setEmail("")
