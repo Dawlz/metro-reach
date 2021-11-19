@@ -42,7 +42,7 @@ const HeadBanner = styled.div`
         font-size: 20pt;
         margin: 2px 0 0 10px;
     }
-`
+`;
 
 const AboutDiv = styled.div`
     display: flex;

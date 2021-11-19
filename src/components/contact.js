@@ -56,7 +56,7 @@ const ContactMainDiv = styled.div`
     > .contactFormDiv {
         border-bottom: none;
     }
-`
+`;
 const Contact = () => {
     return (
         <ContactMainDiv>
