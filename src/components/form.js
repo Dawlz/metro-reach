@@ -20,10 +20,10 @@ const ContactForm = () => {
     const [Message, setMessage] = useState("");
 
     const SubmitHandler = () => {
-        setEmail("")
-        setMessage("")
-        setNames("")
-    }
+        setEmail("");
+        setMessage("");
+        setNames("");
+    };
 
     return (
         <FormDiv>
@@ -32,11 +32,11 @@ const ContactForm = () => {
                 <h4>Get your message across easily</h4>
                 <p>
                     <label htmlFor="Email">Enter Email Address:</label> <br />
-                    <input type="email" name = "Email" value = { Email } onChange = { e => setEmail(e.target.value) } />
+                    <input type="email" name = "Email" value = { Email } onChange = { (e) => setEmail(e.target.value) } />
                 </p>
                 <p>
                     <label htmlFor="names">Names:</label> <br />
-                    <input type="text" name = "names" value = { Names } onChange = { e => setNames(e.target.value) } placeholder="Full Names" />
+                    <input type="text" name = "names" value = { Names } onChange = { (e) => setNames(e.target.value) } placeholder="Full Names" />
                 </p>
                 <p>
                     <label htmlFor="message">Message:</label> <br />
@@ -44,7 +44,7 @@ const ContactForm = () => {
                     rows="4"
                     cols="30"
                     placeholder="Enter message here"
-                    onChange = {e => setMessage(e.target.value)}
+                    onChange = {(e) => setMessage(e.target.value)}
                     name = "message"
                     value = { Message }>
                     </textarea>

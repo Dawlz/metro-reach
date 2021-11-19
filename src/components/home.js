@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
-import styled from "styled-components"
-import ContactModal from "./contactModal"
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import ContactModal from "./contactModal";
 
 const MainDiv = styled.div`
     width: 95%;
