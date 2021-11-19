@@ -37,6 +37,7 @@ const CopyRightDiv = styled.div`
     }
     `
 const LogoDiv = styled.div`
+    align-self: center;
     align-items: center;
     flex-direction: column;
     background-color: #8a2be2;
