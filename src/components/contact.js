@@ -54,7 +54,7 @@ const ContactMainDiv = styled.div`
         color: inherit;
     }
     > .contactFormDiv {
-
+        border-bottom: none;
     }
 `
 const Contact = () => {
@@ -102,7 +102,7 @@ const Contact = () => {
                     </p>
                 </div>
             </div>
-            <div className="contactFormDiv">
+            <div className="contactFormDiv" id="form">
                 <ContactForm />
             </div>
         </ContactMainDiv>

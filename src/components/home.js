@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
+import ContactModal from "./contactModal"
 
 const MainDiv = styled.div`
     width: 95%;
@@ -158,6 +160,16 @@ const ServiceDiv = styled.div `
         font-size: 5pt;
         text-align: left;
     }
+    .ServiceDivContent > div > span > a {
+        text-decoration: none;
+        color: inherit;
+        :hover {
+            background-color: #80808088;
+        }
+        :active {
+            background-color: #a9a9a9;
+        }
+    }
     .ServiceDivContent > div > span > img {
         width: 20pt;
         height: 20pt;
@@ -274,7 +286,7 @@ const Home = () => {
                     </div>
                 </div>
                 <span>
-                    View More
+                    <Link to="/services">View More</Link>
                 </span>
             </ServiceDiv>
             <TestimonialDiv>
@@ -301,6 +313,7 @@ const Home = () => {
                     </div>
                 </div>
             </TestimonialDiv>
+            <ContactModal />
         </MainDiv>
     )
 }

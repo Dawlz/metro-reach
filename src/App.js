@@ -3,6 +3,7 @@ import './App.css';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Header from './components/header';
+import Services from './components/services';
 import Home from './components/home';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component = {Home} />
-        <Route exact path="/contact" component = {Contact} />
+        <Route path="/contact" component = {Contact} />
+        <Route path="/services" component = {Services} />
       </Switch>
       <Footer />
     </div>
