@@ -76,7 +76,7 @@ const Contact = () => {
                 </p>
             </div>
             <div className="socials">
-                <h3>You can reach us on all social media and interact directly with us</h3>
+                <h3>You can reach us on all social media platforms and interact directly with us</h3>
                 <div>
                     <p>
                         <a href="https://fb.me" target = "_blank" rel="noreferrer">
@@ -90,7 +90,7 @@ const Contact = () => {
                         <a href="https://instagram.com" target = "_blank" rel="noreferrer">
                             <FontAwesomeIcon title = "Instagram" icon = {faInstagramSquare} size="4x" color="#8a3ab9"/>
                         </a> <br />
-                        <span>You can also follow us on <a href="https://instagram.com" target = "_blank" rel="noreferrer">Instagram</a> to like view and like our posts</span>
+                        <span>You can also follow us on <a href="https://instagram.com" target = "_blank" rel="noreferrer">Instagram</a> to view,comment on, like and share our posts</span>
                     </p>
                 </div>
                 <div>
