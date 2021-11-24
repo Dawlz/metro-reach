@@ -108,7 +108,7 @@ const Footer = () => {
                     <p><Link to="/">Home</Link></p>
                     <p>Services</p>
                     <p><Link to = "/contact">Contact Us</Link> </p>
-                    <p>Blog</p>
+                    <p><Link to = "/blog">Blog</Link> </p>
                 </SiteMap>
                 <SocialsDiv>
                     <span>|</span>
